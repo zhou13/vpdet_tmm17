@@ -1,3 +1,4 @@
 *.mexa64
 *.mexmaci64
+*.pdf
 .DS_Store
