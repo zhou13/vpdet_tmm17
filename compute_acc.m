@@ -167,8 +167,8 @@ for k = 1:30
 end
 figure(6);
 plot(x, rate / n, 'LineWidth',2);
-set(gca,'XTick',0:1:10,'YTick',0.0:0.1:1.0,'fontsize',13);
-legend("NeurVPS", "TMM17");
+set(gca,'XTick',0:1:10,'YTick',0.0:0.1:1.0,'fontsize',18,'FontName','Times New Roman');
+legend("Conic x 4", "vpdet [50]");
 grid on;
 saveas(gcf,'result.pdf')
 
